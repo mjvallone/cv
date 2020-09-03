@@ -48,22 +48,13 @@
 \email{martin.vallone@fiqus.coop}
 \homepage{fiqus.com}{http://fiqus.coop} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
 \extrainfo{https://github.com/mjvallone}
-\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+\photo[70pt][0.4pt]{pictures/picture.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
 
 \makecvtitle % Print the CV title
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Education}
-
-\cventry{2004--2014}{Information Systems Engineering}{U.T.N.}{Universidad Tecnol\'{o}gica Nacional}{}{}  % Arguments not required can be left empty
-\cventry{1999--2003}{High School}{}{Instituto Dr. Dalmacio Velez Sarsfield}{}{Specialized in Sports Leader and Recreation}
 
 
 %----------------------------------------------------------------------------------------
@@ -80,18 +71,18 @@ I've been researching about:
 \newline{} Flask (Python), Vue, React, Jupyter Notebooks (Data Science / Machine Learning).\newline{}
 }
 %------------------------------------------------
-\cventry{2019-Present}{Developer}{\textsc{COOBS - FiqusLabs}}{Argentina}{}{Web application developed to monitor actions, based on cooperative principles, carried out by a cooperative. 
-\newline{}\newline{}
-Technologies Used:
-\newline{} Django Rest Framework (Python), Vue, PostgreSql.\newline{}
-}%------------------------------------------------
-\cventry{2019}{Developer}{\textsc{CrystalVision}}{Israel}{}{We created an API to connect the web application and the local implementation of one of CrystalVision's products, an Automatic fish feeder.
+\cventry{2020}{Developer}{\textsc{CrystalVision}}{Israel}{}{We created an API to connect the web application and the local implementation of one of CrystalVision's products, an Automatic fish feeder.
 We had to use WebSockets in order to comunicate the API with the local implementation (with poor and unstable internet connection).
 \newline{}\newline{}
 Technologies Used:
 \newline{} Django Rest Framework (Python), Redis, Django Channels (WebSockets).\newline{}
 }
 %------------------------------------------------
+\cventry{2019-Present}{Developer}{\textsc{COOBS - FiqusLabs}}{Argentina}{}{Web application developed to monitor actions, based on cooperative principles, carried out by a cooperative. 
+\newline{}\newline{}
+Technologies Used:
+\newline{} Django Rest Framework (Python), Vue, PostgreSql.\newline{}
+}%------------------------------------------------
 \cventry{2017-2019}{Developer}{\textsc{Betterez}}{Canada}{}{Transport and event ticket sales web and mobile app. As part of the development team of the Canadian company Betterez, I've been working in NodeJS using ECMAScript 6, MongoDB databases, Redis/Memcached and using TDD methodology. One of the main goals of this project was migrating a monolithic application into different Microservices in order to get a network of REST APIs and services.
 \newline{}\newline{}
 Technologies Used:
@@ -112,7 +103,7 @@ Technologies Used:
 %------------------------------------------------
 \cventry{2015}{Developer}{\textsc{Shado}}{Italy}{}{Dmail is an Italy leading company in distant sales, created with us an Android application to connect directly with their users. Products and payments are integrated with they current system, making their more than 350.000 users being able to use whether the app or the web in order to buy their multiple products.
 \newline{}\newline{}
-Technologies Used:I needed to use image manipulating libraries in order to get the proper size and format to use the images, and "connect" them with proper animations, music and effects.
+Technologies Used:
 \newline{} Android.\newline{}
 }
 %------------------------------------------------
@@ -190,17 +181,28 @@ Technologies Used:
 Technologies Used:
 \newline{} Clarion 4 / 5 / 5,5 / 6, SQL Server 2000.
 }
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2004--2014}{Information Systems Engineering}{U.T.N.}{Universidad Tecnol\'{o}gica Nacional}{}{}  % Arguments not required can be left empty
+\cventry{1999--2003}{High School}{}{Instituto Dr. Dalmacio Velez Sarsfield}{}{Specialized in Sports Leader and Recreation}
+
+
 %----------------------------------------------------------------------------------------
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Computer skills}
+\section{Programming languages / frameworks}
 
-\cvitemwithcomment{Advanced}{Python}{Django}
+\cvitemwithcomment{Advanced}{Python}{Django, Django Rest Framework, Django channels}
 \cvitemwithcomment{}{Javascript}{NodeJs, jQuery, Underscore, Backbone}
-\cvitemwithcomment{}{C\#}{.NET 4.0, MVC .NET 2.0, MVC .NET 3.0, MVC .NET 3.5 / 4}
+\cvitemwithcomment{}{Various}{Postgresql, MongoDb}
 
-\cvitem{Intermediate}{C, C++, PHP, SQL, Postgresql, MongoDb, Redis, Angular, Android}
+\cvitem{Intermediate}{C, C++, PHP, SQL, Redis, Angular, Android}
 \cvitem{Basic}{Pascal, Smalltalk, Haskell, Prolog, Java, VueJs, React}
 \cvitem{Others}{Git, SVN, Fluent Nhibernate, Linq, CSS Less}
 
@@ -212,7 +214,7 @@ Technologies Used:
 
 \cvitemwithcomment{Spanish}{Mothertongue}{}
 \cvitemwithcomment{English}{Upper}{}
-\cvitemwithcomment{Italian}{Pre-Intermediate}{2 years up to now}
+\cvitemwithcomment{Italian}{Pre-Intermediate}{3 years up to now}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
